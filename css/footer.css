@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;}
+
+.footer{
+  background-color: #2C2C2C;
+  color: #FFF;
+  font-family: "Poppins";
+  font-size: 16px;
+  height: 75vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}@media(orientation:landscape){
+  .footer{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 346px;
+    padding: 80px;
+  }
+}
+.footer__nombre{
+  font-family: "Orbitron";
+  font-size: 48px;
+  font-weight: 500;
+}
+.footer__redes{
+}@media(orientation:landscape){
+  .footer__redes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+.footer__contacto{
+  height: 27px;
+  margin-bottom: 17px;
+  display: flex;
+  justify-content: center;
+}
+.footer__red{
+  margin: 0;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+.footer__logo{
+  height: 27px;
+  width: 27px;
+  margin-left: 7px;
+}
+.logo-ig{
+  filter: invert(1);
+}

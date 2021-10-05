@@ -1,0 +1,21 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+}
+.inicio{
+}@media(orientation:landscape){
+  .inicio{
+    background: linear-gradient(0.1turn, #408195, #00D287);
+  }
+  .escribime{
+    background-color: transparent;
+  }
+}
+.header-container{
+  background-color: #141414;
+  padding: 24px;
+}@media(orientation:landscape){
+  .header-container{
+    background-color: transparent;
+  }
+}

@@ -1,0 +1,143 @@
+*{
+  box-sizing: border-box;}
+body{
+  margin: 0;}
+.welcome{
+  height: 96vh;
+  background-image: url("https://www.microoci.com/wp-content/uploads/2020/03/stevencormann-capsule-corp-1-421435c5-wlw1.jpeg");
+  background-size: cover;
+  background-position: 30%;
+  font-family: "Montserrat";
+  color: white;
+  padding: 24px;
+}@media(orientation:landscape){
+  .welcome{
+    height: 616px;
+  }
+}
+.welcome__text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+.welcome__saludo{
+  font-size: 48px;
+  margin: 0;
+}
+.welcome__name{
+  font-size: 32px;
+}
+/* ////////////////////////////////////////////////////////////////////////////// */
+.intro{
+  background-color: #141414;
+  color: #FAFAFA;
+  padding: 0 31px;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}@media(orientation:landscape){
+  .intro{
+    height: 538px;
+    background-color: #FAFAFA;
+    color: #2C2C2C;
+    flex-direction: row;
+  }
+}
+.intro__foto{
+  display: none;
+}@media(orientation:landscape){
+  .intro__foto{
+    display: inline;
+    padding-right: 50px;
+  }
+}
+/* .intro__text-container{} */
+@media(orientation:landscape){
+  .intro__text-container{
+    text-align: start;
+    max-width: 500px;
+    min-width: 310px;
+    place-self: center;
+  }
+}
+.intro__saludo{
+  font-family: "Montserrat";
+  font-size: 32px;
+  margin: 0;
+}
+.intro__text{
+  font-family: "Poppins";
+  font-size: 16px;
+}
+.intro__text2{
+  display: none;
+}@media(orientation:landscape){
+  .intro__text{
+    display: none;
+  }
+  .intro__text2{
+    display: block;
+    font-family: "Poppins";
+    font-size: 24px;
+  }
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+.servicios{
+  background-color: #FAFAFA;
+  font-family: "Montserrat";
+  text-align: center;
+  padding: 0 56px;
+}
+.servicios__title{
+  font-size: 32px;
+  text-justify: center;
+  margin: 0px;
+  padding-top: 70px;
+  margin-top: 0px;
+  margin-bottom: 35px;
+}@media(orientation:landscape){
+  .servicios__title{
+    font-size: 48px;
+  }
+}
+.card__contenedor{
+  justify-items: center;
+  padding: 35px 0px;
+  width: 250px;
+}
+
+.card__contenedor-contenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media(orientation:landscape){
+  .card__contenedor-contenedor{
+    display: grid;
+    grid-template-columns: 266px 266px 266px;
+    gap: 50px;
+    justify-content: space-evenly;
+  }
+}
+.card__img{
+  height: 170px;
+  width: 100%;
+  font-family: "Poppins";
+  object-fit:fill;
+  border:solid rgba(49, 47, 47, 0.973) 2px;
+  border-radius: 4px;
+}
+.card__subtitle{
+  font-size: 24px;
+  font-weight: 700;
+}
+.card__content{
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  font-family: "Poppins";
+}

@@ -1,0 +1,109 @@
+*{
+  box-sizing: border-box;}
+
+.header{
+  /* padding-t: 24px; */
+  display: flex;
+  justify-content: space-between;
+}@media(orientation:landscape){
+  .header{
+    align-items: center;
+  }
+}
+.header__name{
+  font-family: "Orbitron";
+  font-size: 30px;
+  margin: 0;
+  color: #fff;
+  font-weight: 500;
+}@media(orientation:landscape){
+  .header__name{
+    font-size: 48px;
+  }
+}
+.headder__button-abre{
+  width: 36px;
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}@media(orientation:landscape){
+  .headder__button-abre{
+    display: none;
+  }
+}
+.headder__button-lines{
+  width: 100%;
+  height: 6px;
+  background-color: #fff;
+}
+.header__links{
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 400;
+  display: none;
+  background-color: #161616;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  padding: 15px;
+}@media(orientation:landscape){
+  .header__links{
+    display:flex;
+    flex-direction: row;
+    height: 70px;
+    position:static;
+    background-color:transparent;
+    justify-content: end;
+  }
+}
+.header__links :hover{
+  color: #ffff00;
+  font-size: 28px;
+}
+.link{
+  text-decoration-line: none;
+}
+.header__button-cierra{
+  border: none;
+  background: none;
+  color: white;
+  font-size: 37px;
+  place-self: end;
+}@media(orientation:landscape){
+  .header__button-cierra{
+    display: none;
+  }
+}
+.header__link{
+  font-weight: 700;
+  font-size: 48px;
+  margin-top: 60px;
+}@media(orientation:landscape){
+  .header__link{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+  }
+}
+.headder__contenedor-link{
+  margin-top: 80px;
+  justify-self: center;
+  text-align: center;
+}@media(orientation:landscape){
+  .headder__contenedor-link{
+    margin-top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    align-items: center;
+  }
+}
